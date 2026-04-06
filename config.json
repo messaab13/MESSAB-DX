@@ -1,0 +1,31 @@
+
+{
+"inbounds": [
+{
+"port": 8080,
+"protocol": "trojan",
+"settings": {
+"clients": [
+{
+"password": "1MESSAB-DX",
+"level": 0
+}
+],
+"decryption": "none"
+},
+"streamSettings": {
+"network": "ws",
+"wsSettings": {
+"path": "/MESSAB-DX"
+}
+}
+}
+],
+"outbounds": [
+{
+"protocol": "freedom",
+"settings": {}
+}
+]
+}
+
